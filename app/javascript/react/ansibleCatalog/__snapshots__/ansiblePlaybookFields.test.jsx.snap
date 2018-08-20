@@ -1,0 +1,2891 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ansible playbook fields form component should render correctly 1`] = `
+<Connect(AnsiblePlaybookFields)
+  addExtraVars={[MockFunction]}
+  changeField={[MockFunction]}
+  duplicateDropdowns={[MockFunction]}
+  formValues={
+    Object {
+      "provisioning_extra_vars": Array [],
+      "provisioning_repository_id": 1234,
+    }
+  }
+  loadCatalogItem={[MockFunction]}
+  loadCloudCredential={[MockFunction]}
+  loadCloudTypes={[MockFunction]}
+  loadPlaybooks={[MockFunction]}
+  loadRepos={[MockFunction]}
+  prefix="provisioning"
+  region={1}
+>
+  <AnsiblePlaybookFields
+    addExtraVars={[MockFunction]}
+    changeField={[MockFunction]}
+    credentialsRequest={[Function]}
+    data={
+      Object {
+        "catalogItem": Object {
+          "config_info": Object {
+            "provision": Object {
+              "cloud_credential_id": 123,
+            },
+            "retirement": Object {},
+          },
+          "description": "test",
+          "id": 1234,
+          "name": "test",
+        },
+        "cloudCredential": Object {
+          "type": "test",
+        },
+        "dropdowns": Object {
+          "catalogs": Array [
+            Object {
+              "label": "Amazon Operations",
+              "value": "10000000000008",
+            },
+            Object {
+              "label": "Ansible Demos",
+              "value": "10000000000001",
+            },
+          ],
+          "cloudTypes": Array [
+            Object {
+              "label": "Amazon",
+              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AmazonCredential",
+            },
+            Object {
+              "label": "Azure",
+              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AzureCredential",
+            },
+            Object {
+              "label": "Google Compute Engine",
+              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::GoogleCredential",
+            },
+            Object {
+              "label": "OpenStack",
+              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::OpenstackCredential",
+            },
+            Object {
+              "label": "Red Hat Virtualization",
+              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::RhvCredential",
+            },
+            Object {
+              "label": "VMware",
+              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::VmwareCredential",
+            },
+          ],
+          "dialogs": Array [
+            Object {
+              "label": "101-vm-simple-rhel Dialog",
+              "value": "10000000000003",
+            },
+          ],
+          "machineCredentials": Array [
+            Object {
+              "label": "Default Credential",
+              "value": "10000000000064",
+            },
+          ],
+          "provisioning_cloudTypes": Array [
+            Object {
+              "label": "test",
+              "value": "test",
+            },
+          ],
+          "provisioning_playbooks": Array [
+            Object {
+              "label": "test",
+              "value": "test",
+            },
+          ],
+          "repos": Array [
+            Object {
+              "label": "Sample Playbooks (jeromemarc)",
+              "value": "10000000000014",
+            },
+            Object {
+              "label": "workflow-demo (jeromemarc)",
+              "value": "10000000000013",
+            },
+          ],
+        },
+      }
+    }
+    duplicateDropdowns={[Function]}
+    formValues={
+      Object {
+        "provisioning_extra_vars": Array [],
+        "provisioning_repository_id": 1234,
+      }
+    }
+    loadCatalogItem={[Function]}
+    loadCatalogs={[Function]}
+    loadCloudCredential={[Function]}
+    loadCloudCredentials={[Function]}
+    loadCloudTypes={[Function]}
+    loadCredentials={[Function]}
+    loadDialogs={[Function]}
+    loadPlaybooks={[Function]}
+    loadRepos={[Function]}
+    prefix="provisioning"
+    region={1}
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-12 col-lg-6"
+      >
+        <Field
+          format={[Function]}
+          label="Repository"
+          name="provisioning_repository_id"
+          parse={[Function]}
+          render={[Function]}
+          validate={[Function]}
+          validateOnMount={true}
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_repository_id",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Repository"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            name="provisioning_repository_id"
+            options={
+              Array [
+                Object {
+                  "label": "Sample Playbooks (jeromemarc)",
+                  "value": "10000000000014",
+                },
+                Object {
+                  "label": "workflow-demo (jeromemarc)",
+                  "value": "10000000000013",
+                },
+              ]
+            }
+            placeholder="<Choose>"
+            searchable={true}
+            validate={[Function]}
+            validateOnMount={true}
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_repository_id",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Repository"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              name="provisioning_repository_id"
+              options={
+                Array [
+                  Object {
+                    "label": "Sample Playbooks (jeromemarc)",
+                    "value": "10000000000014",
+                  },
+                  Object {
+                    "label": "workflow-demo (jeromemarc)",
+                    "value": "10000000000013",
+                  },
+                ]
+              }
+              placeholder="<Choose>"
+              searchable={true}
+              validate={[Function]}
+              validateOnMount={true}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Repository
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_repository_id"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Repository"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_repository_id"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={
+                          Array [
+                            Object {
+                              "label": "Sample Playbooks (jeromemarc)",
+                              "value": "10000000000014",
+                            },
+                            Object {
+                              "label": "workflow-demo (jeromemarc)",
+                              "value": "10000000000013",
+                            },
+                          ]
+                        }
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={true}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        validate={[Function]}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select is-searchable Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-2--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <AutosizeInput
+                                aria-activedescendant="react-select-2--value"
+                                aria-expanded="false"
+                                aria-haspopup="false"
+                                aria-owns=""
+                                className="Select-input"
+                                id="provisioning_repository_id"
+                                injectStyles={true}
+                                minWidth="5"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                required={false}
+                                role="combobox"
+                                value=""
+                              >
+                                <div
+                                  className="Select-input"
+                                  style={
+                                    Object {
+                                      "display": "inline-block",
+                                    }
+                                  }
+                                >
+                                  <input
+                                    aria-activedescendant="react-select-2--value"
+                                    aria-expanded="false"
+                                    aria-haspopup="false"
+                                    aria-owns=""
+                                    id="provisioning_repository_id"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    required={false}
+                                    role="combobox"
+                                    style={
+                                      Object {
+                                        "boxSizing": "content-box",
+                                        "width": "5px",
+                                      }
+                                    }
+                                    value=""
+                                  />
+                                  <div
+                                    style={
+                                      Object {
+                                        "height": 0,
+                                        "left": 0,
+                                        "overflow": "scroll",
+                                        "position": "absolute",
+                                        "top": 0,
+                                        "visibility": "hidden",
+                                        "whiteSpace": "pre",
+                                      }
+                                    }
+                                  />
+                                </div>
+                              </AutosizeInput>
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_playbook_id"
+          label="Playbook"
+          labelColumnSize={3}
+          name="provisioning_playbook_id"
+          options={
+            Array [
+              Object {
+                "label": "test",
+                "value": "test",
+              },
+            ]
+          }
+          parse={[Function]}
+          placeholder="<Choose>"
+          validate={[Function]}
+          validateOnMount={true}
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_playbook_id",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Playbook"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            options={
+              Array [
+                Object {
+                  "label": "test",
+                  "value": "test",
+                },
+              ]
+            }
+            placeholder="<Choose>"
+            validateOnMount={true}
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_playbook_id",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Playbook"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              options={
+                Array [
+                  Object {
+                    "label": "test",
+                    "value": "test",
+                  },
+                ]
+              }
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={true}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Playbook
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_playbook_id"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Playbook"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_playbook_id"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={
+                          Array [
+                            Object {
+                              "label": "test",
+                              "value": "test",
+                            },
+                          ]
+                        }
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-3--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-3--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_credential_id"
+          label="Machine Credential"
+          labelColumnSize={3}
+          name="provisioning_credential_id"
+          options={
+            Array [
+              Object {
+                "label": "Default Credential",
+                "value": "10000000000064",
+              },
+            ]
+          }
+          parse={[Function]}
+          placeholder="<Choose>"
+          validate={[Function]}
+          validateOnMount={true}
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_credential_id",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Machine Credential"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            options={
+              Array [
+                Object {
+                  "label": "Default Credential",
+                  "value": "10000000000064",
+                },
+              ]
+            }
+            placeholder="<Choose>"
+            validateOnMount={true}
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_credential_id",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Machine Credential"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              options={
+                Array [
+                  Object {
+                    "label": "Default Credential",
+                    "value": "10000000000064",
+                  },
+                ]
+              }
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={true}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Machine Credential
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_credential_id"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Machine Credential"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_credential_id"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={
+                          Array [
+                            Object {
+                              "label": "Default Credential",
+                              "value": "10000000000064",
+                            },
+                          ]
+                        }
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-4--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-4--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_vault_credential_id"
+          label="Vault Credential"
+          labelColumnSize={3}
+          name="provisioning_vault_credential_id"
+          options={Array []}
+          parse={[Function]}
+          placeholder="<Choose>"
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_vault_credential_id",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Vault Credential"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            options={Array []}
+            placeholder="<Choose>"
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_vault_credential_id",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Vault Credential"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              options={Array []}
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Vault Credential
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_vault_credential_id"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Vault Credential"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_vault_credential_id"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={Array []}
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-5--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-5--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_hosts"
+          label="Hostnames"
+          labelColumnSize={3}
+          name="provisioning_hosts"
+          parse={[Function]}
+        >
+          <FinalFormTextArea
+            input={
+              Object {
+                "name": "provisioning_hosts",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Hostnames"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="textarea"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_hosts",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Hostnames"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              placeholder=""
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Hostnames
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="textarea"
+                        disabled={false}
+                        id="provisioning_hosts"
+                        name="provisioning_hosts"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        value=""
+                      >
+                        <textarea
+                          className="form-control"
+                          disabled={false}
+                          id="provisioning_hosts"
+                          name="provisioning_hosts"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          value=""
+                        />
+                      </FormControl>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormTextArea>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_execution_ttl"
+          label="Max TTL (mins)"
+          labelColumnSize={3}
+          name="provisioning_execution_ttl"
+          parse={[Function]}
+        >
+          <FinalFormField
+            input={
+              Object {
+                "name": "provisioning_execution_ttl",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Max TTL (mins)"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="textfield"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_execution_ttl",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Max TTL (mins)"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              placeholder=""
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Max TTL (mins)
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        disabled={false}
+                        id="provisioning_execution_ttl"
+                        name="provisioning_execution_ttl"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        placeholder=""
+                        type="text"
+                        value=""
+                      >
+                        <input
+                          className="form-control"
+                          disabled={false}
+                          id="provisioning_execution_ttl"
+                          name="provisioning_execution_ttl"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          type="text"
+                          value=""
+                        />
+                      </FormControl>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormField>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_log_output"
+          label="Logging Output"
+          labelColumnSize={3}
+          name="provisioning_log_output"
+          options={
+            Array [
+              Object {
+                "label": "On Error",
+                "value": "on_error",
+              },
+              Object {
+                "label": "Always",
+                "value": "always",
+              },
+              Object {
+                "label": "Never",
+                "value": "never",
+              },
+            ]
+          }
+          parse={[Function]}
+          placeholder="<Choose>"
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_log_output",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Logging Output"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            options={
+              Array [
+                Object {
+                  "label": "On Error",
+                  "value": "on_error",
+                },
+                Object {
+                  "label": "Always",
+                  "value": "always",
+                },
+                Object {
+                  "label": "Never",
+                  "value": "never",
+                },
+              ]
+            }
+            placeholder="<Choose>"
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_log_output",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Logging Output"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              options={
+                Array [
+                  Object {
+                    "label": "On Error",
+                    "value": "on_error",
+                  },
+                  Object {
+                    "label": "Always",
+                    "value": "always",
+                  },
+                  Object {
+                    "label": "Never",
+                    "value": "never",
+                  },
+                ]
+              }
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Logging Output
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_log_output"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Logging Output"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_log_output"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={
+                          Array [
+                            Object {
+                              "label": "On Error",
+                              "value": "on_error",
+                            },
+                            Object {
+                              "label": "Always",
+                              "value": "always",
+                            },
+                            Object {
+                              "label": "Never",
+                              "value": "never",
+                            },
+                          ]
+                        }
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-6--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-6--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_become_enabled"
+          label="Escalate Privileges"
+          labelColumnSize={3}
+          name="provisioning_become_enabled"
+          offText="No"
+          onText="Yes"
+          parse={[Function]}
+        >
+          <FinalFormSwitch
+            input={
+              Object {
+                "name": "provisioning_become_enabled",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Escalate Privileges"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            offText="No"
+            onText="Yes"
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="switch"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_become_enabled",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Escalate Privileges"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              offText="No"
+              onText="Yes"
+              placeholder=""
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Escalate Privileges
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Switch
+                        animate={true}
+                        baseClass="bootstrap-switch"
+                        bsSize={null}
+                        clearable={false}
+                        defaultValue={true}
+                        disabled={false}
+                        handleWidth="auto"
+                        id="provisioning_become_enabled"
+                        inverse={false}
+                        label="Escalate Privileges"
+                        labelKey="label"
+                        labelText=" "
+                        labelWidth="auto"
+                        multi={false}
+                        name="provisioning_become_enabled"
+                        offColor="default"
+                        offText="No"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onColor="primary"
+                        onFocus={[Function]}
+                        onText="Yes"
+                        placeholder=""
+                        readonly={false}
+                        searchable={false}
+                        tristate={false}
+                        value={false}
+                        valueKey="value"
+                        wrapperClass="wrapper"
+                      >
+                        <div
+                          className="bootstrap-switch wrapper bootstrap-switch-off bootstrap-switch-provisioning_become_enabled"
+                          onBlur={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "width": "auto",
+                            }
+                          }
+                          tabIndex="0"
+                        >
+                          <div
+                            className="bootstrap-switch-container"
+                            style={
+                              Object {
+                                "marginLeft": -0,
+                                "width": "auto",
+                              }
+                            }
+                          >
+                            <span
+                              className="bootstrap-switch-handle-on bootstrap-switch-primary"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "width": 0,
+                                }
+                              }
+                            >
+                              Yes
+                            </span>
+                            <span
+                              className="bootstrap-switch-label"
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseMove={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "width": 0,
+                                }
+                              }
+                            >
+                               
+                            </span>
+                            <span
+                              className="bootstrap-switch-handle-off bootstrap-switch-default"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "width": 0,
+                                }
+                              }
+                            >
+                              No
+                            </span>
+                          </div>
+                        </div>
+                      </Switch>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSwitch>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          key="provisioning_verbosity"
+          label="Verbosity"
+          labelColumnSize={3}
+          name="provisioning_verbosity"
+          options={
+            Array [
+              Object {
+                "label": "0 (Normal)",
+                "value": 0,
+              },
+              Object {
+                "label": "1 (Verbose)",
+                "value": 1,
+              },
+              Object {
+                "label": "2 (More Verbose)",
+                "value": 2,
+              },
+              Object {
+                "label": "3 (Debug)",
+                "value": 3,
+              },
+              Object {
+                "label": "4 (Connection Debug)",
+                "value": 4,
+              },
+              Object {
+                "label": "5 (WinRM Debug)",
+                "value": 5,
+              },
+            ]
+          }
+          parse={[Function]}
+          placeholder="<Choose>"
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_verbosity",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Verbosity"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            options={
+              Array [
+                Object {
+                  "label": "0 (Normal)",
+                  "value": 0,
+                },
+                Object {
+                  "label": "1 (Verbose)",
+                  "value": 1,
+                },
+                Object {
+                  "label": "2 (More Verbose)",
+                  "value": 2,
+                },
+                Object {
+                  "label": "3 (Debug)",
+                  "value": 3,
+                },
+                Object {
+                  "label": "4 (Connection Debug)",
+                  "value": 4,
+                },
+                Object {
+                  "label": "5 (WinRM Debug)",
+                  "value": 5,
+                },
+              ]
+            }
+            placeholder="<Choose>"
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_verbosity",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Verbosity"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              options={
+                Array [
+                  Object {
+                    "label": "0 (Normal)",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "1 (Verbose)",
+                    "value": 1,
+                  },
+                  Object {
+                    "label": "2 (More Verbose)",
+                    "value": 2,
+                  },
+                  Object {
+                    "label": "3 (Debug)",
+                    "value": 3,
+                  },
+                  Object {
+                    "label": "4 (Connection Debug)",
+                    "value": 4,
+                  },
+                  Object {
+                    "label": "5 (WinRM Debug)",
+                    "value": 5,
+                  },
+                ]
+              }
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Verbosity
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_verbosity"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Verbosity"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_verbosity"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={
+                          Array [
+                            Object {
+                              "label": "0 (Normal)",
+                              "value": 0,
+                            },
+                            Object {
+                              "label": "1 (Verbose)",
+                              "value": 1,
+                            },
+                            Object {
+                              "label": "2 (More Verbose)",
+                              "value": 2,
+                            },
+                            Object {
+                              "label": "3 (Debug)",
+                              "value": 3,
+                            },
+                            Object {
+                              "label": "4 (Connection Debug)",
+                              "value": 4,
+                            },
+                            Object {
+                              "label": "5 (WinRM Debug)",
+                              "value": 5,
+                            },
+                          ]
+                        }
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-7--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-7--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          format={[Function]}
+          label="Cloud Type"
+          name="provisioning_cloud_type"
+          parse={[Function]}
+          render={[Function]}
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_cloud_type",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Cloud Type"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            name="provisioning_cloud_type"
+            options={
+              Array [
+                Object {
+                  "label": "Amazon",
+                  "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AmazonCredential",
+                },
+                Object {
+                  "label": "Azure",
+                  "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AzureCredential",
+                },
+                Object {
+                  "label": "Google Compute Engine",
+                  "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::GoogleCredential",
+                },
+                Object {
+                  "label": "OpenStack",
+                  "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::OpenstackCredential",
+                },
+                Object {
+                  "label": "Red Hat Virtualization",
+                  "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::RhvCredential",
+                },
+                Object {
+                  "label": "VMware",
+                  "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::VmwareCredential",
+                },
+              ]
+            }
+            placeholder="<Choose>"
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_cloud_type",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Cloud Type"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              name="provisioning_cloud_type"
+              options={
+                Array [
+                  Object {
+                    "label": "Amazon",
+                    "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AmazonCredential",
+                  },
+                  Object {
+                    "label": "Azure",
+                    "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AzureCredential",
+                  },
+                  Object {
+                    "label": "Google Compute Engine",
+                    "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::GoogleCredential",
+                  },
+                  Object {
+                    "label": "OpenStack",
+                    "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::OpenstackCredential",
+                  },
+                  Object {
+                    "label": "Red Hat Virtualization",
+                    "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::RhvCredential",
+                  },
+                  Object {
+                    "label": "VMware",
+                    "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::VmwareCredential",
+                  },
+                ]
+              }
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Cloud Type
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_cloud_type"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Cloud Type"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_cloud_type"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={
+                          Array [
+                            Object {
+                              "label": "Amazon",
+                              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AmazonCredential",
+                            },
+                            Object {
+                              "label": "Azure",
+                              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::AzureCredential",
+                            },
+                            Object {
+                              "label": "Google Compute Engine",
+                              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::GoogleCredential",
+                            },
+                            Object {
+                              "label": "OpenStack",
+                              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::OpenstackCredential",
+                            },
+                            Object {
+                              "label": "Red Hat Virtualization",
+                              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::RhvCredential",
+                            },
+                            Object {
+                              "label": "VMware",
+                              "value": "ManageIQ::Providers::EmbeddedAnsible::AutomationManager::VmwareCredential",
+                            },
+                          ]
+                        }
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-8--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-8--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+        <Field
+          component={[Function]}
+          format={[Function]}
+          inputColumnSize={8}
+          label="Cloud Credentials"
+          labelColumnSize={3}
+          name="provisioning_cloud_credential_id"
+          options={Array []}
+          parse={[Function]}
+          placeholder="<Choose>"
+        >
+          <FinalFormSelect
+            input={
+              Object {
+                "name": "provisioning_cloud_credential_id",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "onFocus": [Function],
+                "value": "",
+              }
+            }
+            inputColumnSize={8}
+            label="Cloud Credentials"
+            labelColumnSize={3}
+            meta={
+              Object {
+                "active": undefined,
+                "data": undefined,
+                "dirty": undefined,
+                "dirtySinceLastSubmit": undefined,
+                "error": undefined,
+                "initial": undefined,
+                "invalid": undefined,
+                "pristine": undefined,
+                "submitError": undefined,
+                "submitFailed": undefined,
+                "submitSucceeded": undefined,
+                "touched": undefined,
+                "valid": undefined,
+                "visited": undefined,
+              }
+            }
+            options={Array []}
+            placeholder="<Choose>"
+          >
+            <FinalFormComponent
+              clearable={false}
+              componentType="select"
+              disabled={false}
+              input={
+                Object {
+                  "name": "provisioning_cloud_credential_id",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Cloud Credentials"
+              labelColumnSize={3}
+              labelKey="label"
+              meta={
+                Object {
+                  "active": undefined,
+                  "data": undefined,
+                  "dirty": undefined,
+                  "dirtySinceLastSubmit": undefined,
+                  "error": undefined,
+                  "initial": undefined,
+                  "invalid": undefined,
+                  "pristine": undefined,
+                  "submitError": undefined,
+                  "submitFailed": undefined,
+                  "submitSucceeded": undefined,
+                  "touched": undefined,
+                  "valid": undefined,
+                  "visited": undefined,
+                }
+              }
+              multi={false}
+              options={Array []}
+              placeholder="<Choose>"
+              searchable={false}
+              validateOnMount={false}
+              valueKey="value"
+            >
+              <FormGroup
+                bsClass="form-group"
+                validationState={null}
+              >
+                <div
+                  className="form-group"
+                >
+                  <Col
+                    bsClass="col"
+                    className="control-label"
+                    componentClass="label"
+                    xs={3}
+                  >
+                    <label
+                      className="control-label col-xs-3"
+                    >
+                      Cloud Credentials
+                    </label>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    xs={8}
+                  >
+                    <div
+                      className="col-xs-8"
+                    >
+                      <Select
+                        arrowRenderer={[Function]}
+                        autosize={true}
+                        backspaceRemoves={true}
+                        backspaceToRemoveMessage="Press backspace to remove {label}"
+                        className=" final-form-select"
+                        clearAllText="Clear all"
+                        clearRenderer={[Function]}
+                        clearValueText="Clear value"
+                        clearable={false}
+                        closeOnSelect={true}
+                        deleteRemoves={true}
+                        delimiter=","
+                        disabled={false}
+                        escapeClearsValue={true}
+                        filterOptions={[Function]}
+                        id="provisioning_cloud_credential_id"
+                        ignoreAccents={true}
+                        ignoreCase={true}
+                        inputProps={Object {}}
+                        isLoading={false}
+                        joinValues={false}
+                        label="Cloud Credentials"
+                        labelKey="label"
+                        matchPos="any"
+                        matchProp="any"
+                        menuBuffer={0}
+                        menuRenderer={[Function]}
+                        multi={false}
+                        name="provisioning_cloud_credential_id"
+                        noResultsText="No results found"
+                        onBlur={[Function]}
+                        onBlurResetsInput={true}
+                        onChange={[Function]}
+                        onCloseResetsInput={true}
+                        onFocus={[Function]}
+                        onSelectResetsInput={true}
+                        openOnClick={true}
+                        optionClassName="final-form-select-option"
+                        optionComponent={[Function]}
+                        options={Array []}
+                        pageSize={5}
+                        placeholder="<Choose>"
+                        removeSelected={true}
+                        required={false}
+                        rtl={false}
+                        scrollMenuIntoView={true}
+                        searchable={false}
+                        simpleValue={false}
+                        tabSelectsValue={true}
+                        trimFilter={true}
+                        value=""
+                        valueComponent={[Function]}
+                        valueKey="value"
+                      >
+                        <div
+                          className="Select  final-form-select Select--single"
+                        >
+                          <div
+                            className="Select-control"
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                          >
+                            <div
+                              className="Select-multi-value-wrapper"
+                              id="react-select-9--value"
+                            >
+                              <div
+                                className="Select-placeholder"
+                              >
+                                &lt;Choose&gt;
+                              </div>
+                              <div
+                                aria-activedescendant="react-select-9--value"
+                                aria-disabled="false"
+                                aria-expanded={false}
+                                aria-owns=""
+                                className="Select-input"
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                role="combobox"
+                                style={
+                                  Object {
+                                    "border": 0,
+                                    "display": "inline-block",
+                                    "width": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              />
+                            </div>
+                            <span
+                              className="Select-arrow-zone"
+                              onMouseDown={[Function]}
+                            >
+                              <span
+                                className="Select-arrow"
+                                onMouseDown={[Function]}
+                              />
+                            </span>
+                          </div>
+                        </div>
+                      </Select>
+                    </div>
+                  </Col>
+                </div>
+              </FormGroup>
+            </FinalFormComponent>
+          </FinalFormSelect>
+        </Field>
+      </div>
+      <div
+        className="col-md-12 col-lg-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className="control-label col-xs-2"
+          >
+            Variables & Default Values
+          </label>
+          <div
+            className="col-xs-8"
+          >
+            <div>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Add
+                </button>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </AnsiblePlaybookFields>
+</Connect(AnsiblePlaybookFields)>
+`;
