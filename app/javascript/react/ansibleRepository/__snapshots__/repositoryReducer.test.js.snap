@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ansible repository reducer should load a credential 1`] = `
+Object {
+  "credentials": Array [
+    Object {
+      "label": "test",
+      "value": 1,
+    },
+  ],
+  "repo": Object {},
+}
+`;
+
+exports[`Ansible repository reducer should load a list of Manager resources 1`] = `
+Object {
+  "credentials": Array [],
+  "managerResource": Object {
+    "resources": Array [
+      Object {
+        "href": "http://test.com",
+      },
+    ],
+  },
+  "repo": Object {},
+}
+`;
+
+exports[`Ansible repository reducer should load a repo 1`] = `
+Object {
+  "credentials": Array [],
+  "repo": Object {
+    "authentication_id": null,
+    "description": "test",
+    "name": "Test",
+    "scm_branch": "master",
+    "scm_clean": false,
+    "scm_delete_on_update": false,
+    "scm_type": "git",
+    "scm_update_on_launch": false,
+    "scm_url": "https://github.com/test",
+  },
+}
+`;
+
+exports[`Ansible repository reducer should return the initial state 1`] = `
+Object {
+  "credentials": Array [],
+  "repo": Object {},
+}
+`;

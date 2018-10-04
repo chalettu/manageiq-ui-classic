@@ -3,6 +3,7 @@
  *= require patternfly-bootstrap-treeview/dist/bootstrap-treeview.min
  *= require main
  *= require ./automate_import_export
+ *= require ./ansible_repositories
  *= require ./dialog_fields
  *= require angular
  *= require ./notifications

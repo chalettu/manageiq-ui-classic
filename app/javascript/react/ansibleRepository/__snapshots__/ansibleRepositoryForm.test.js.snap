@@ -1,0 +1,1658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ansible Repository form component should render correctly 1`] = `
+<Connect(AnsibleRepositoryForm)
+  loadCredentials={[MockFunction]}
+  loadManagerResource={[MockFunction]}
+  loadRepo={[MockFunction]}
+  repoId={null}
+>
+  <AnsibleRepositoryForm
+    ansibleRepository={
+      Object {
+        "credentials": Array [],
+        "managerResource": Array [],
+        "repo": Object {},
+      }
+    }
+    loadCredentials={[Function]}
+    loadManagerResource={[Function]}
+    loadRepo={[Function]}
+    repoId={null}
+  >
+    <ReactFinalForm
+      initialValues={
+        Object {
+          "authentication_id": null,
+          "description": "",
+          "name": "",
+          "scm_branch": "",
+          "scm_clean": false,
+          "scm_delete_on_update": false,
+          "scm_type": "git",
+          "scm_update_on_launch": false,
+          "scm_url": "",
+        }
+      }
+      onSubmit={[Function]}
+      render={[Function]}
+    >
+      <Form
+        bsClass="form"
+        componentClass="form"
+        horizontal={true}
+        inline={false}
+        onSubmit={[Function]}
+      >
+        <form
+          className="form-horizontal"
+          onSubmit={[Function]}
+        >
+          <div
+            id="flash_msg_div"
+          />
+          <Field
+            component={[Function]}
+            format={[Function]}
+            inputColumnSize={8}
+            key="name"
+            label="Name"
+            labelColumnSize={3}
+            name="name"
+            parse={[Function]}
+            validate={[Function]}
+            validateOnMount={true}
+          >
+            <FinalFormField
+              input={
+                Object {
+                  "name": "name",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Name"
+              labelColumnSize={3}
+              meta={
+                Object {
+                  "active": false,
+                  "data": Object {},
+                  "dirty": false,
+                  "dirtySinceLastSubmit": false,
+                  "error": "Required",
+                  "initial": "",
+                  "invalid": true,
+                  "pristine": true,
+                  "submitError": undefined,
+                  "submitFailed": false,
+                  "submitSucceeded": false,
+                  "touched": false,
+                  "valid": false,
+                  "visited": false,
+                }
+              }
+              validateOnMount={true}
+            >
+              <FinalFormComponent
+                clearable={false}
+                componentType="textfield"
+                disabled={false}
+                input={
+                  Object {
+                    "name": "name",
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "value": "",
+                  }
+                }
+                inputColumnSize={8}
+                label="Name"
+                labelColumnSize={3}
+                labelKey="label"
+                meta={
+                  Object {
+                    "active": false,
+                    "data": Object {},
+                    "dirty": false,
+                    "dirtySinceLastSubmit": false,
+                    "error": "Required",
+                    "initial": "",
+                    "invalid": true,
+                    "pristine": true,
+                    "submitError": undefined,
+                    "submitFailed": false,
+                    "submitSucceeded": false,
+                    "touched": false,
+                    "valid": false,
+                    "visited": false,
+                  }
+                }
+                multi={false}
+                placeholder=""
+                searchable={false}
+                validateOnMount={true}
+                valueKey="value"
+              >
+                <FormGroup
+                  bsClass="form-group"
+                  validationState="error"
+                >
+                  <div
+                    className="form-group has-error"
+                  >
+                    <Col
+                      bsClass="col"
+                      className="control-label"
+                      componentClass="label"
+                      xs={3}
+                    >
+                      <label
+                        className="control-label col-xs-3"
+                      >
+                        Name
+                      </label>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={8}
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          disabled={false}
+                          id="name"
+                          name="name"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          type="text"
+                          value=""
+                        >
+                          <input
+                            className="form-control"
+                            disabled={false}
+                            id="name"
+                            name="name"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
+                          />
+                        </FormControl>
+                        <HelpBlock
+                          bsClass="help-block"
+                        >
+                          <span
+                            className="help-block"
+                          >
+                            Required
+                          </span>
+                        </HelpBlock>
+                      </div>
+                    </Col>
+                  </div>
+                </FormGroup>
+              </FinalFormComponent>
+            </FinalFormField>
+          </Field>
+          <Field
+            component={[Function]}
+            format={[Function]}
+            id="description"
+            inputColumnSize={8}
+            key="description"
+            label="Description"
+            labelColumnSize={3}
+            name="description"
+            parse={[Function]}
+          >
+            <FinalFormField
+              id="description"
+              input={
+                Object {
+                  "name": "description",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="Description"
+              labelColumnSize={3}
+              meta={
+                Object {
+                  "active": false,
+                  "data": Object {},
+                  "dirty": false,
+                  "dirtySinceLastSubmit": false,
+                  "error": undefined,
+                  "initial": "",
+                  "invalid": false,
+                  "pristine": true,
+                  "submitError": undefined,
+                  "submitFailed": false,
+                  "submitSucceeded": false,
+                  "touched": false,
+                  "valid": true,
+                  "visited": false,
+                }
+              }
+            >
+              <FinalFormComponent
+                clearable={false}
+                componentType="textfield"
+                disabled={false}
+                id="description"
+                input={
+                  Object {
+                    "name": "description",
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "value": "",
+                  }
+                }
+                inputColumnSize={8}
+                label="Description"
+                labelColumnSize={3}
+                labelKey="label"
+                meta={
+                  Object {
+                    "active": false,
+                    "data": Object {},
+                    "dirty": false,
+                    "dirtySinceLastSubmit": false,
+                    "error": undefined,
+                    "initial": "",
+                    "invalid": false,
+                    "pristine": true,
+                    "submitError": undefined,
+                    "submitFailed": false,
+                    "submitSucceeded": false,
+                    "touched": false,
+                    "valid": true,
+                    "visited": false,
+                  }
+                }
+                multi={false}
+                placeholder=""
+                searchable={false}
+                validateOnMount={false}
+                valueKey="value"
+              >
+                <FormGroup
+                  bsClass="form-group"
+                  validationState={null}
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <Col
+                      bsClass="col"
+                      className="control-label"
+                      componentClass="label"
+                      xs={3}
+                    >
+                      <label
+                        className="control-label col-xs-3"
+                      >
+                        Description
+                      </label>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={8}
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          disabled={false}
+                          id="description"
+                          name="description"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          type="text"
+                          value=""
+                        >
+                          <input
+                            className="form-control"
+                            disabled={false}
+                            id="description"
+                            name="description"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
+                          />
+                        </FormControl>
+                      </div>
+                    </Col>
+                  </div>
+                </FormGroup>
+              </FinalFormComponent>
+            </FinalFormField>
+          </Field>
+          <Field
+            component={[Function]}
+            disabled={true}
+            format={[Function]}
+            inputColumnSize={8}
+            key="scm_type"
+            label="SCM Type"
+            labelColumnSize={3}
+            name="scm_type"
+            options={
+              Array [
+                Object {
+                  "label": "GIT",
+                  "value": "git",
+                },
+              ]
+            }
+            parse={[Function]}
+          >
+            <FinalFormSelect
+              disabled={true}
+              input={
+                Object {
+                  "name": "scm_type",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "git",
+                }
+              }
+              inputColumnSize={8}
+              label="SCM Type"
+              labelColumnSize={3}
+              meta={
+                Object {
+                  "active": false,
+                  "data": Object {},
+                  "dirty": false,
+                  "dirtySinceLastSubmit": false,
+                  "error": undefined,
+                  "initial": "git",
+                  "invalid": false,
+                  "pristine": true,
+                  "submitError": undefined,
+                  "submitFailed": false,
+                  "submitSucceeded": false,
+                  "touched": false,
+                  "valid": true,
+                  "visited": false,
+                }
+              }
+              options={
+                Array [
+                  Object {
+                    "label": "GIT",
+                    "value": "git",
+                  },
+                ]
+              }
+            >
+              <FinalFormComponent
+                clearable={false}
+                componentType="select"
+                disabled={true}
+                input={
+                  Object {
+                    "name": "scm_type",
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "value": "git",
+                  }
+                }
+                inputColumnSize={8}
+                label="SCM Type"
+                labelColumnSize={3}
+                labelKey="label"
+                meta={
+                  Object {
+                    "active": false,
+                    "data": Object {},
+                    "dirty": false,
+                    "dirtySinceLastSubmit": false,
+                    "error": undefined,
+                    "initial": "git",
+                    "invalid": false,
+                    "pristine": true,
+                    "submitError": undefined,
+                    "submitFailed": false,
+                    "submitSucceeded": false,
+                    "touched": false,
+                    "valid": true,
+                    "visited": false,
+                  }
+                }
+                multi={false}
+                options={
+                  Array [
+                    Object {
+                      "label": "GIT",
+                      "value": "git",
+                    },
+                  ]
+                }
+                placeholder=""
+                searchable={false}
+                validateOnMount={false}
+                valueKey="value"
+              >
+                <FormGroup
+                  bsClass="form-group"
+                  validationState={null}
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <Col
+                      bsClass="col"
+                      className="control-label"
+                      componentClass="label"
+                      xs={3}
+                    >
+                      <label
+                        className="control-label col-xs-3"
+                      >
+                        SCM Type
+                      </label>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={8}
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <Select
+                          arrowRenderer={[Function]}
+                          autosize={true}
+                          backspaceRemoves={true}
+                          backspaceToRemoveMessage="Press backspace to remove {label}"
+                          className=" final-form-select"
+                          clearAllText="Clear all"
+                          clearRenderer={[Function]}
+                          clearValueText="Clear value"
+                          clearable={false}
+                          closeOnSelect={true}
+                          deleteRemoves={true}
+                          delimiter=","
+                          disabled={true}
+                          escapeClearsValue={true}
+                          filterOptions={[Function]}
+                          id="scm_type"
+                          ignoreAccents={true}
+                          ignoreCase={true}
+                          inputProps={Object {}}
+                          isLoading={false}
+                          joinValues={false}
+                          label="SCM Type"
+                          labelKey="label"
+                          matchPos="any"
+                          matchProp="any"
+                          menuBuffer={0}
+                          menuRenderer={[Function]}
+                          multi={false}
+                          name="scm_type"
+                          noResultsText="No results found"
+                          onBlur={[Function]}
+                          onBlurResetsInput={true}
+                          onChange={[Function]}
+                          onCloseResetsInput={true}
+                          onFocus={[Function]}
+                          onSelectResetsInput={true}
+                          openOnClick={true}
+                          optionClassName="final-form-select-option"
+                          optionComponent={[Function]}
+                          options={
+                            Array [
+                              Object {
+                                "label": "GIT",
+                                "value": "git",
+                              },
+                            ]
+                          }
+                          pageSize={5}
+                          placeholder=""
+                          removeSelected={true}
+                          required={false}
+                          rtl={false}
+                          scrollMenuIntoView={true}
+                          searchable={false}
+                          simpleValue={false}
+                          tabSelectsValue={true}
+                          trimFilter={true}
+                          value="git"
+                          valueComponent={[Function]}
+                          valueKey="value"
+                        >
+                          <div
+                            className="Select  final-form-select has-value is-disabled Select--single"
+                          >
+                            <input
+                              disabled={true}
+                              key="hidden.0"
+                              name="scm_type"
+                              type="hidden"
+                              value="git"
+                            />
+                            <div
+                              className="Select-control"
+                              onKeyDown={[Function]}
+                              onMouseDown={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                            >
+                              <div
+                                className="Select-multi-value-wrapper"
+                                id="react-select-2--value"
+                              >
+                                <Value
+                                  disabled={true}
+                                  id="react-select-2--value-item"
+                                  instancePrefix="react-select-2-"
+                                  onClick={null}
+                                  placeholder=""
+                                  value={
+                                    Object {
+                                      "label": "GIT",
+                                      "value": "git",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="Select-value"
+                                  >
+                                    <span
+                                      aria-selected="true"
+                                      className="Select-value-label"
+                                      id="react-select-2--value-item"
+                                      role="option"
+                                    >
+                                      GIT
+                                    </span>
+                                  </div>
+                                </Value>
+                                <div
+                                  aria-activedescendant="react-select-2--value"
+                                  aria-disabled="true"
+                                  aria-expanded={false}
+                                  aria-owns=""
+                                  className="Select-input"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  role="combobox"
+                                  style={
+                                    Object {
+                                      "border": 0,
+                                      "display": "inline-block",
+                                      "width": 1,
+                                    }
+                                  }
+                                  tabIndex={0}
+                                />
+                              </div>
+                              <span
+                                className="Select-arrow-zone"
+                                onMouseDown={[Function]}
+                              >
+                                <span
+                                  className="Select-arrow"
+                                  onMouseDown={[Function]}
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </Select>
+                      </div>
+                    </Col>
+                  </div>
+                </FormGroup>
+              </FinalFormComponent>
+            </FinalFormSelect>
+          </Field>
+          <Field
+            component={[Function]}
+            format={[Function]}
+            inputColumnSize={8}
+            key="scm_url"
+            label="URL"
+            labelColumnSize={3}
+            name="scm_url"
+            parse={[Function]}
+            validate={[Function]}
+            validateOnMount={true}
+          >
+            <FinalFormField
+              input={
+                Object {
+                  "name": "scm_url",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="URL"
+              labelColumnSize={3}
+              meta={
+                Object {
+                  "active": false,
+                  "data": Object {},
+                  "dirty": false,
+                  "dirtySinceLastSubmit": false,
+                  "error": "Required",
+                  "initial": "",
+                  "invalid": true,
+                  "pristine": true,
+                  "submitError": undefined,
+                  "submitFailed": false,
+                  "submitSucceeded": false,
+                  "touched": false,
+                  "valid": false,
+                  "visited": false,
+                }
+              }
+              validateOnMount={true}
+            >
+              <FinalFormComponent
+                clearable={false}
+                componentType="textfield"
+                disabled={false}
+                input={
+                  Object {
+                    "name": "scm_url",
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "value": "",
+                  }
+                }
+                inputColumnSize={8}
+                label="URL"
+                labelColumnSize={3}
+                labelKey="label"
+                meta={
+                  Object {
+                    "active": false,
+                    "data": Object {},
+                    "dirty": false,
+                    "dirtySinceLastSubmit": false,
+                    "error": "Required",
+                    "initial": "",
+                    "invalid": true,
+                    "pristine": true,
+                    "submitError": undefined,
+                    "submitFailed": false,
+                    "submitSucceeded": false,
+                    "touched": false,
+                    "valid": false,
+                    "visited": false,
+                  }
+                }
+                multi={false}
+                placeholder=""
+                searchable={false}
+                validateOnMount={true}
+                valueKey="value"
+              >
+                <FormGroup
+                  bsClass="form-group"
+                  validationState="error"
+                >
+                  <div
+                    className="form-group has-error"
+                  >
+                    <Col
+                      bsClass="col"
+                      className="control-label"
+                      componentClass="label"
+                      xs={3}
+                    >
+                      <label
+                        className="control-label col-xs-3"
+                      >
+                        URL
+                      </label>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={8}
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          disabled={false}
+                          id="scm_url"
+                          name="scm_url"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          type="text"
+                          value=""
+                        >
+                          <input
+                            className="form-control"
+                            disabled={false}
+                            id="scm_url"
+                            name="scm_url"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
+                          />
+                        </FormControl>
+                        <HelpBlock
+                          bsClass="help-block"
+                        >
+                          <span
+                            className="help-block"
+                          >
+                            Required
+                          </span>
+                        </HelpBlock>
+                      </div>
+                    </Col>
+                  </div>
+                </FormGroup>
+              </FinalFormComponent>
+            </FinalFormField>
+          </Field>
+          <Field
+            component={[Function]}
+            disabled={true}
+            format={[Function]}
+            inputColumnSize={8}
+            key="authentication_id"
+            label="SCM credentials"
+            labelColumnSize={3}
+            name="authentication_id"
+            options={Array []}
+            parse={[Function]}
+            placeholder="Select credentials"
+          >
+            <FinalFormSelect
+              disabled={true}
+              input={
+                Object {
+                  "name": "authentication_id",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="SCM credentials"
+              labelColumnSize={3}
+              meta={
+                Object {
+                  "active": false,
+                  "data": Object {},
+                  "dirty": false,
+                  "dirtySinceLastSubmit": false,
+                  "error": undefined,
+                  "initial": null,
+                  "invalid": false,
+                  "pristine": true,
+                  "submitError": undefined,
+                  "submitFailed": false,
+                  "submitSucceeded": false,
+                  "touched": false,
+                  "valid": true,
+                  "visited": false,
+                }
+              }
+              options={Array []}
+              placeholder="Select credentials"
+            >
+              <FinalFormComponent
+                clearable={false}
+                componentType="select"
+                disabled={true}
+                input={
+                  Object {
+                    "name": "authentication_id",
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "value": "",
+                  }
+                }
+                inputColumnSize={8}
+                label="SCM credentials"
+                labelColumnSize={3}
+                labelKey="label"
+                meta={
+                  Object {
+                    "active": false,
+                    "data": Object {},
+                    "dirty": false,
+                    "dirtySinceLastSubmit": false,
+                    "error": undefined,
+                    "initial": null,
+                    "invalid": false,
+                    "pristine": true,
+                    "submitError": undefined,
+                    "submitFailed": false,
+                    "submitSucceeded": false,
+                    "touched": false,
+                    "valid": true,
+                    "visited": false,
+                  }
+                }
+                multi={false}
+                options={Array []}
+                placeholder="Select credentials"
+                searchable={false}
+                validateOnMount={false}
+                valueKey="value"
+              >
+                <FormGroup
+                  bsClass="form-group"
+                  validationState={null}
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <Col
+                      bsClass="col"
+                      className="control-label"
+                      componentClass="label"
+                      xs={3}
+                    >
+                      <label
+                        className="control-label col-xs-3"
+                      >
+                        SCM credentials
+                      </label>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={8}
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <Select
+                          arrowRenderer={[Function]}
+                          autosize={true}
+                          backspaceRemoves={true}
+                          backspaceToRemoveMessage="Press backspace to remove {label}"
+                          className=" final-form-select"
+                          clearAllText="Clear all"
+                          clearRenderer={[Function]}
+                          clearValueText="Clear value"
+                          clearable={false}
+                          closeOnSelect={true}
+                          deleteRemoves={true}
+                          delimiter=","
+                          disabled={true}
+                          escapeClearsValue={true}
+                          filterOptions={[Function]}
+                          id="authentication_id"
+                          ignoreAccents={true}
+                          ignoreCase={true}
+                          inputProps={Object {}}
+                          isLoading={false}
+                          joinValues={false}
+                          label="SCM credentials"
+                          labelKey="label"
+                          matchPos="any"
+                          matchProp="any"
+                          menuBuffer={0}
+                          menuRenderer={[Function]}
+                          multi={false}
+                          name="authentication_id"
+                          noResultsText="No results found"
+                          onBlur={[Function]}
+                          onBlurResetsInput={true}
+                          onChange={[Function]}
+                          onCloseResetsInput={true}
+                          onFocus={[Function]}
+                          onSelectResetsInput={true}
+                          openOnClick={true}
+                          optionClassName="final-form-select-option"
+                          optionComponent={[Function]}
+                          options={Array []}
+                          pageSize={5}
+                          placeholder="Select credentials"
+                          removeSelected={true}
+                          required={false}
+                          rtl={false}
+                          scrollMenuIntoView={true}
+                          searchable={false}
+                          simpleValue={false}
+                          tabSelectsValue={true}
+                          trimFilter={true}
+                          value=""
+                          valueComponent={[Function]}
+                          valueKey="value"
+                        >
+                          <div
+                            className="Select  final-form-select is-disabled Select--single"
+                          >
+                            <div
+                              className="Select-control"
+                              onKeyDown={[Function]}
+                              onMouseDown={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                            >
+                              <div
+                                className="Select-multi-value-wrapper"
+                                id="react-select-3--value"
+                              >
+                                <div
+                                  className="Select-placeholder"
+                                >
+                                  Select credentials
+                                </div>
+                                <div
+                                  aria-activedescendant="react-select-3--value"
+                                  aria-disabled="true"
+                                  aria-expanded={false}
+                                  aria-owns=""
+                                  className="Select-input"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  role="combobox"
+                                  style={
+                                    Object {
+                                      "border": 0,
+                                      "display": "inline-block",
+                                      "width": 1,
+                                    }
+                                  }
+                                  tabIndex={0}
+                                />
+                              </div>
+                              <span
+                                className="Select-arrow-zone"
+                                onMouseDown={[Function]}
+                              >
+                                <span
+                                  className="Select-arrow"
+                                  onMouseDown={[Function]}
+                                />
+                              </span>
+                            </div>
+                          </div>
+                        </Select>
+                      </div>
+                    </Col>
+                  </div>
+                </FormGroup>
+              </FinalFormComponent>
+            </FinalFormSelect>
+          </Field>
+          <Field
+            component={[Function]}
+            format={[Function]}
+            inputColumnSize={8}
+            key="scm_branch"
+            label="SCM Branch"
+            labelColumnSize={3}
+            name="scm_branch"
+            parse={[Function]}
+          >
+            <FinalFormField
+              input={
+                Object {
+                  "name": "scm_branch",
+                  "onBlur": [Function],
+                  "onChange": [Function],
+                  "onFocus": [Function],
+                  "value": "",
+                }
+              }
+              inputColumnSize={8}
+              label="SCM Branch"
+              labelColumnSize={3}
+              meta={
+                Object {
+                  "active": false,
+                  "data": Object {},
+                  "dirty": false,
+                  "dirtySinceLastSubmit": false,
+                  "error": undefined,
+                  "initial": "",
+                  "invalid": false,
+                  "pristine": true,
+                  "submitError": undefined,
+                  "submitFailed": false,
+                  "submitSucceeded": false,
+                  "touched": false,
+                  "valid": true,
+                  "visited": false,
+                }
+              }
+            >
+              <FinalFormComponent
+                clearable={false}
+                componentType="textfield"
+                disabled={false}
+                input={
+                  Object {
+                    "name": "scm_branch",
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "value": "",
+                  }
+                }
+                inputColumnSize={8}
+                label="SCM Branch"
+                labelColumnSize={3}
+                labelKey="label"
+                meta={
+                  Object {
+                    "active": false,
+                    "data": Object {},
+                    "dirty": false,
+                    "dirtySinceLastSubmit": false,
+                    "error": undefined,
+                    "initial": "",
+                    "invalid": false,
+                    "pristine": true,
+                    "submitError": undefined,
+                    "submitFailed": false,
+                    "submitSucceeded": false,
+                    "touched": false,
+                    "valid": true,
+                    "visited": false,
+                  }
+                }
+                multi={false}
+                placeholder=""
+                searchable={false}
+                validateOnMount={false}
+                valueKey="value"
+              >
+                <FormGroup
+                  bsClass="form-group"
+                  validationState={null}
+                >
+                  <div
+                    className="form-group"
+                  >
+                    <Col
+                      bsClass="col"
+                      className="control-label"
+                      componentClass="label"
+                      xs={3}
+                    >
+                      <label
+                        className="control-label col-xs-3"
+                      >
+                        SCM Branch
+                      </label>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={8}
+                    >
+                      <div
+                        className="col-xs-8"
+                      >
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          disabled={false}
+                          id="scm_branch"
+                          name="scm_branch"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder=""
+                          type="text"
+                          value=""
+                        >
+                          <input
+                            className="form-control"
+                            disabled={false}
+                            id="scm_branch"
+                            name="scm_branch"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
+                          />
+                        </FormControl>
+                      </div>
+                    </Col>
+                  </div>
+                </FormGroup>
+              </FinalFormComponent>
+            </FinalFormField>
+          </Field>
+          <div
+            className="form-group"
+          >
+            <label
+              className="col-xs-3 control-label"
+            >
+              SCM Update Options
+            </label>
+            <div
+              className="col-xs-8 scm_checkboxes"
+            >
+              <Field
+                component={[Function]}
+                format={[Function]}
+                label="Clean"
+                name="scm_clean"
+                parse={[Function]}
+                type="checkbox"
+              >
+                <FinalFormCheckBox
+                  input={
+                    Object {
+                      "checked": false,
+                      "name": "scm_clean",
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "value": false,
+                    }
+                  }
+                  label="Clean"
+                  meta={
+                    Object {
+                      "active": false,
+                      "data": Object {},
+                      "dirty": false,
+                      "dirtySinceLastSubmit": false,
+                      "error": undefined,
+                      "initial": false,
+                      "invalid": false,
+                      "pristine": true,
+                      "submitError": undefined,
+                      "submitFailed": false,
+                      "submitSucceeded": false,
+                      "touched": false,
+                      "valid": true,
+                      "visited": false,
+                    }
+                  }
+                  type="checkbox"
+                >
+                  <FinalFormComponent
+                    clearable={false}
+                    componentType="checkbox"
+                    disabled={false}
+                    input={
+                      Object {
+                        "checked": false,
+                        "name": "scm_clean",
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "value": false,
+                      }
+                    }
+                    inputColumnSize={8}
+                    label="Clean"
+                    labelColumnSize={2}
+                    labelKey="label"
+                    meta={
+                      Object {
+                        "active": false,
+                        "data": Object {},
+                        "dirty": false,
+                        "dirtySinceLastSubmit": false,
+                        "error": undefined,
+                        "initial": false,
+                        "invalid": false,
+                        "pristine": true,
+                        "submitError": undefined,
+                        "submitFailed": false,
+                        "submitSucceeded": false,
+                        "touched": false,
+                        "valid": true,
+                        "visited": false,
+                      }
+                    }
+                    multi={false}
+                    placeholder=""
+                    searchable={false}
+                    type="checkbox"
+                    validateOnMount={false}
+                    valueKey="value"
+                  >
+                    <FormGroup
+                      bsClass="form-group"
+                      className="field-group"
+                      validationState={null}
+                    >
+                      <div
+                        className="field-group form-group"
+                      >
+                        <Col
+                          bsClass="col"
+                          componentClass="div"
+                        >
+                          <div
+                            className=""
+                          >
+                            <Checkbox
+                              bsClass="checkbox"
+                              checked={false}
+                              disabled={false}
+                              id="scm_clean"
+                              inline={false}
+                              name="scm_clean"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              title=""
+                              value={false}
+                            >
+                              <div
+                                className="checkbox"
+                              >
+                                <label
+                                  title=""
+                                >
+                                  <input
+                                    checked={false}
+                                    disabled={false}
+                                    id="scm_clean"
+                                    name="scm_clean"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    type="checkbox"
+                                    value={false}
+                                  />
+                                  Clean
+                                </label>
+                              </div>
+                            </Checkbox>
+                          </div>
+                        </Col>
+                      </div>
+                    </FormGroup>
+                  </FinalFormComponent>
+                </FinalFormCheckBox>
+              </Field>
+              <Field
+                component={[Function]}
+                format={[Function]}
+                label="Delete on Update"
+                name="scm_delete_on_update"
+                parse={[Function]}
+                type="checkbox"
+              >
+                <FinalFormCheckBox
+                  input={
+                    Object {
+                      "checked": false,
+                      "name": "scm_delete_on_update",
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "value": false,
+                    }
+                  }
+                  label="Delete on Update"
+                  meta={
+                    Object {
+                      "active": false,
+                      "data": Object {},
+                      "dirty": false,
+                      "dirtySinceLastSubmit": false,
+                      "error": undefined,
+                      "initial": false,
+                      "invalid": false,
+                      "pristine": true,
+                      "submitError": undefined,
+                      "submitFailed": false,
+                      "submitSucceeded": false,
+                      "touched": false,
+                      "valid": true,
+                      "visited": false,
+                    }
+                  }
+                  type="checkbox"
+                >
+                  <FinalFormComponent
+                    clearable={false}
+                    componentType="checkbox"
+                    disabled={false}
+                    input={
+                      Object {
+                        "checked": false,
+                        "name": "scm_delete_on_update",
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "value": false,
+                      }
+                    }
+                    inputColumnSize={8}
+                    label="Delete on Update"
+                    labelColumnSize={2}
+                    labelKey="label"
+                    meta={
+                      Object {
+                        "active": false,
+                        "data": Object {},
+                        "dirty": false,
+                        "dirtySinceLastSubmit": false,
+                        "error": undefined,
+                        "initial": false,
+                        "invalid": false,
+                        "pristine": true,
+                        "submitError": undefined,
+                        "submitFailed": false,
+                        "submitSucceeded": false,
+                        "touched": false,
+                        "valid": true,
+                        "visited": false,
+                      }
+                    }
+                    multi={false}
+                    placeholder=""
+                    searchable={false}
+                    type="checkbox"
+                    validateOnMount={false}
+                    valueKey="value"
+                  >
+                    <FormGroup
+                      bsClass="form-group"
+                      className="field-group"
+                      validationState={null}
+                    >
+                      <div
+                        className="field-group form-group"
+                      >
+                        <Col
+                          bsClass="col"
+                          componentClass="div"
+                        >
+                          <div
+                            className=""
+                          >
+                            <Checkbox
+                              bsClass="checkbox"
+                              checked={false}
+                              disabled={false}
+                              id="scm_delete_on_update"
+                              inline={false}
+                              name="scm_delete_on_update"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              title=""
+                              value={false}
+                            >
+                              <div
+                                className="checkbox"
+                              >
+                                <label
+                                  title=""
+                                >
+                                  <input
+                                    checked={false}
+                                    disabled={false}
+                                    id="scm_delete_on_update"
+                                    name="scm_delete_on_update"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    type="checkbox"
+                                    value={false}
+                                  />
+                                  Delete on Update
+                                </label>
+                              </div>
+                            </Checkbox>
+                          </div>
+                        </Col>
+                      </div>
+                    </FormGroup>
+                  </FinalFormComponent>
+                </FinalFormCheckBox>
+              </Field>
+              <Field
+                component={[Function]}
+                format={[Function]}
+                label="Update on launch"
+                name="scm_update_on_launch"
+                parse={[Function]}
+                type="checkbox"
+              >
+                <FinalFormCheckBox
+                  input={
+                    Object {
+                      "checked": false,
+                      "name": "scm_update_on_launch",
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "value": false,
+                    }
+                  }
+                  label="Update on launch"
+                  meta={
+                    Object {
+                      "active": false,
+                      "data": Object {},
+                      "dirty": false,
+                      "dirtySinceLastSubmit": false,
+                      "error": undefined,
+                      "initial": false,
+                      "invalid": false,
+                      "pristine": true,
+                      "submitError": undefined,
+                      "submitFailed": false,
+                      "submitSucceeded": false,
+                      "touched": false,
+                      "valid": true,
+                      "visited": false,
+                    }
+                  }
+                  type="checkbox"
+                >
+                  <FinalFormComponent
+                    clearable={false}
+                    componentType="checkbox"
+                    disabled={false}
+                    input={
+                      Object {
+                        "checked": false,
+                        "name": "scm_update_on_launch",
+                        "onBlur": [Function],
+                        "onChange": [Function],
+                        "onFocus": [Function],
+                        "value": false,
+                      }
+                    }
+                    inputColumnSize={8}
+                    label="Update on launch"
+                    labelColumnSize={2}
+                    labelKey="label"
+                    meta={
+                      Object {
+                        "active": false,
+                        "data": Object {},
+                        "dirty": false,
+                        "dirtySinceLastSubmit": false,
+                        "error": undefined,
+                        "initial": false,
+                        "invalid": false,
+                        "pristine": true,
+                        "submitError": undefined,
+                        "submitFailed": false,
+                        "submitSucceeded": false,
+                        "touched": false,
+                        "valid": true,
+                        "visited": false,
+                      }
+                    }
+                    multi={false}
+                    placeholder=""
+                    searchable={false}
+                    type="checkbox"
+                    validateOnMount={false}
+                    valueKey="value"
+                  >
+                    <FormGroup
+                      bsClass="form-group"
+                      className="field-group"
+                      validationState={null}
+                    >
+                      <div
+                        className="field-group form-group"
+                      >
+                        <Col
+                          bsClass="col"
+                          componentClass="div"
+                        >
+                          <div
+                            className=""
+                          >
+                            <Checkbox
+                              bsClass="checkbox"
+                              checked={false}
+                              disabled={false}
+                              id="scm_update_on_launch"
+                              inline={false}
+                              name="scm_update_on_launch"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              title=""
+                              value={false}
+                            >
+                              <div
+                                className="checkbox"
+                              >
+                                <label
+                                  title=""
+                                >
+                                  <input
+                                    checked={false}
+                                    disabled={false}
+                                    id="scm_update_on_launch"
+                                    name="scm_update_on_launch"
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    type="checkbox"
+                                    value={false}
+                                  />
+                                  Update on launch
+                                </label>
+                              </div>
+                            </Checkbox>
+                          </div>
+                        </Col>
+                      </div>
+                    </FormGroup>
+                  </FinalFormComponent>
+                </FinalFormCheckBox>
+              </Field>
+            </div>
+          </div>
+          <FormButtons
+            addClicked={[Function]}
+            cancelClicked={[Function]}
+            customLabel=""
+            newRecord={true}
+            pristine={true}
+            resetClicked={[Function]}
+            saveClicked={[Function]}
+            saveable={false}
+          >
+            <div
+              className="clearfix"
+            />
+            <div
+              className="pull-right button-group edit_buttons"
+            >
+              <MiqButton
+                disabledTitle=""
+                enabled={false}
+                enabledTitle=""
+                name="Add"
+                onClick={[Function]}
+                primary={true}
+                title="Add"
+                xs={false}
+              >
+                <button
+                  alt="Add"
+                  className="btn btn-primary disabled"
+                  onClick={[Function]}
+                  title="Add"
+                >
+                  Add
+                </button>
+              </MiqButton>
+              <MiqButton
+                disabledTitle=""
+                enabled={true}
+                enabledTitle=""
+                name="Cancel"
+                onClick={[Function]}
+                primary={false}
+                title="Cancel"
+                xs={false}
+              >
+                <button
+                  alt="Cancel"
+                  className="btn btn-default"
+                  onClick={[Function]}
+                  title="Cancel"
+                >
+                  Cancel
+                </button>
+              </MiqButton>
+            </div>
+          </FormButtons>
+        </form>
+      </Form>
+    </ReactFinalForm>
+  </AnsibleRepositoryForm>
+</Connect(AnsibleRepositoryForm)>
+`;

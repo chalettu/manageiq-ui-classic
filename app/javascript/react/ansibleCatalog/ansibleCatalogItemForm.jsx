@@ -1,4 +1,5 @@
 import React from 'react';
+import { combineReducers } from 'redux';
 import { Form, Field } from 'react-final-form';
 import { Form as PfForm, Button, TabContainer, TabContent, Spinner, TabPane, Nav, NavItem } from 'patternfly-react';
 import AnsiblePlaybookFields from './ansiblePlaybookFields';
@@ -6,6 +7,7 @@ import arrayMutators from 'final-form-arrays';
 import FormButtons from '../../forms/form-buttons';
 import {renderFormField, getResourceOptions} from './helpers';
 import {ANSIBLE_FIELDS, DEFAULT_PLACEHOLDER} from './constants';
+import reducer from './catalogReducer';
 import { API } from '../../http_api';
 import PropTypes from 'prop-types';
 import {
@@ -20,6 +22,7 @@ import {
 export class AnsibleCatalogItemForm extends React.Component {
 constructor(props) {
     super(props);
+    ManageIQ.redux.addReducer(combineReducers({ ansibleCatalog: reducer }));
     this.state = {
       initialValues: this.setFormDefaultValues(),
       isLoading: true,
